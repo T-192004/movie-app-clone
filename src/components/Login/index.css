@@ -1,0 +1,86 @@
+.login-container {
+  background-image: url('https://res.cloudinary.com/dxkjmlrfk/image/upload/v1728125480/netfilx_1_ztjqdy.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  width: 456px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0.8px;
+  background-color: rgb(12, 11, 16, 0.8);
+}
+.login-title {
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+.login-form {
+  width: 360px;
+  height: 64px;
+  top: 428px;
+  left: 540px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 8px;
+}
+.input-box {
+  width: 360px;
+  height: 40px;
+  top: 24px;
+  gap: 0px;
+  border-radius: 2px;
+  border: none;
+  margin: 8px 0px 8px 0px;
+  padding: 8px;
+  background: #333333;
+  color: #ffffff;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 18px 0px 18px 0px;
+}
+.input-label {
+  font-family: 'HK Grotesk';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #ffffff;
+}
+.login-btn {
+  width: 360px;
+  height: 40px;
+  margin: 8px 0px 8px 0px;
+  border-radius: 6px;
+  background: #e50914;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #f8fafc;
+  border: none;
+  cursor: pointer;
+}
+.error-msg {
+  color: #dc2626;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.24px;
+  text-align: left;
+}

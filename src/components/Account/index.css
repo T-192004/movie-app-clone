@@ -1,0 +1,109 @@
+.account-container {
+  background-color: #131313;
+  background-size: cover;
+  min-height: 100vh;
+}
+.account-details {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 60vh;
+  padding: 20px 120px 20px 120px;
+}
+.acccount-details-title {
+  font-family: 'HK Grotesk';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46.91px;
+  color: #131313;
+  /* position: relative; */
+  top: 17px;
+  left: 145px;
+  gap: 0px;
+  opacity: 0px;
+}
+.break-line {
+  background-color: #cbd5e1;
+  width: 1310px;
+  height: 2px;
+  top: 238px;
+  left: 165px;
+  gap: 0px;
+  border: none;
+  border-radius: 10px;
+  margin:;
+}
+.options-val-pass {
+  color: #64748b;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.account-options-container {
+  /* position: relative; */
+  top: 17px;
+  left: 145px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.account-options-title {
+  font-family: HK Grotesk;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31.27px;
+  text-align: left;
+  color: #94a3b8;
+  margin-right: 8px;
+}
+.options-values {
+  top: 14px;
+  left: 11px;
+  position: relative;
+}
+.options-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.options-val-1 {
+  color: #1e293b;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px;
+}
+.options-plan {
+  border: 1px solid #1e293b;
+  width: Hug (79px) px;
+  height: Hug (27px) px;
+  top: 391px;
+  left: 443px;
+  padding: 2px 4px 2px 4px;
+  gap: 10px;
+  margin-left: 10px;
+  background-color: #c9cbcd;
+  border-radius: 2px;
+}
+.logout-btn {
+  background-color: #e50914;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 464px;
+  left: 750px;
+  color: #ffffff;
+}
+
+.logout-btn::hover {
+  color: #f44d56;
+  pointer-events: stroke;
+}

@@ -1,0 +1,123 @@
+.home-container {
+  background-size: cover;
+  background-color: #131313;
+  min-height: 100vh;
+}
+.banner-container {
+  top: 443px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(24, 24, 24, 0.546875) 38.26%,
+    #181818 92.82%,
+    #181818 98.68%,
+    #181818 108.61%
+  );
+  background-size: cover;
+  height: 700px;
+  gap: 0px;
+  opacity: 0px;
+}
+.banner-poster {
+  width: 100%;
+  height: 700px;
+  gap: 0px;
+  opacity: 0px;
+}
+.banner-content {
+  position: absolute;
+  top: 220px;
+  left: 230px;
+}
+.banner-heading {
+  font-family: HK Grotesk;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 62px;
+  text-align: left;
+  color: #ffffff;
+}
+.banner-descp {
+  font-family: HK Grotesk;
+  font-weight: lighter;
+  text-align: left;
+  color: #ffffff;
+  font-size: 14px;
+  width: 503px;
+}
+.banner-btn {
+  width: Hug (74px) px;
+  height: Hug (40px) px;
+  padding: 8px 24px 8px 24px;
+  gap: 8px;
+  border-radius: 4px;
+  border: none;
+  background: #ffffff;
+}
+.bottom-container {
+  padding: 60px;
+  padding-top: 40px;
+}
+.bottom-heading {
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 8px;
+  margin: 10px;
+  line-height: 31.27px;
+  text-align: left;
+  color: #ffffff;
+}
+.carousel-container {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #0d0d0d;
+}
+.home-api-failure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.home-api-failure p {
+  color: #ffffff;
+  text-align: center;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18.24px;
+}
+.home-api-failure button {
+  background-color: #ffffff;
+  width: 125px;
+  height: 42px;
+  padding: 4px 16px 4px 16px;
+  gap: 8px;
+  align-self: center;
+  border-radius: 4px;
+  border: none;
+  color: #171f46;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+}
+.react-icons {
+  color: #d81f26;
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}

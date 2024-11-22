@@ -1,0 +1,15 @@
+.popularMoviesContianer {
+  background-color: #131313;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.popular-movies-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
